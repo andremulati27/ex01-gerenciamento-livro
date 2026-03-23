@@ -8,6 +8,7 @@ import jakarta.persistence.Id;
 @Entity
 public class BookModel {
 
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long Id;
@@ -50,4 +51,5 @@ public class BookModel {
     public void setAnoPublicacao(Integer anoPublicacao) {
         AnoPublicacao = anoPublicacao;
     }
+
 }
